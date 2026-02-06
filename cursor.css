@@ -1,0 +1,148 @@
+body{
+    color: white;
+    background-color: black;
+}
+.nav-container{
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.nav-mid{
+    
+    gap: 30px;
+    font-size: large;
+}
+
+#button1{
+    border-color: white;
+    color: white;
+    background-color: black;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+#button2{
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#button3{
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.main{
+    margin-top: 100px;
+}
+#image-main{
+    margin-top: 100px;
+}
+
+section{
+    margin-top: 50px;
+}
+#trusted-div{
+    justify-content: space-between;  
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+.trust{
+    gap: 10px;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.918);
+    color: black;
+    padding: 20px;
+}
+
+.agent{
+    margin-top: 10vh;
+    font-size: 18px;
+    letter-spacing: 0.0125;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.agent-container{
+    background-color: var(--secondary-bg-color);
+    padding: 15px;
+    height: 90vh;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.agent-text{
+    gap: 5px;
+}
+.agent-image{
+    margin-right: 500px;
+    margin-left: 100px;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.magic-image{
+    margin-left: 200px;
+    margin-right: 100px;
+}
+.magic-text{
+    gap: 5px;
+}
+
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 30px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.card-author {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.card img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.changelog-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 30px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.trynow{
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.try-now{
+    padding: 20px;
+    border-radius: 30px;
+    font-weight: 300px;
+    font-size: larger;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 30px;
+    max-width: 1200px;
+    margin: auto;
+}
